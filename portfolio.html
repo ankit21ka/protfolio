@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfolio</title>
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+<header>
+  <button id="theme-toggle" aria-label="Toggle Dark or Light Mode">🌗</button>
+  <h1 class="animate">Hi, I'm Ankit Kumar</h1>
+  <p class="animate">"A passionate learner and aspiring Web Developer. I love creating things that live on the internet."</p>
+</header>
+
+
+<main class="container">
+  <section id="projects">
+    <h2 class="animate">Projects</h2>
+    <div class="projects-grid">
+      
+      <!-- first -->
+      <article class="project-card animate" tabindex="0">
+        <h3>photo-gallery</h3>
+        <p>A fast, responsive personal portfolio built with HTML, CSS & JavaScript showcasing my development skills and creativity. Features smooth animations and dark mode.</p>
+        <div class="project-links">
+          <a href="https://example.com/portfolio" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="https://github.com/coderbhaiya/smart-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </article>
+
+      <!-- second -->
+      <article class="project-card animate" tabindex="0">
+        <h3>amazon-clone</h3>
+        <p>A simple front-end clone of Amazon’s homepage built with HTML and CSS. It includes a navbar, search bar, product listings, and a responsive layout.</p>
+        <div class="project-links">
+          <a href="file:///C:/Users/ankit/OneDrive/%EB%AC%B8%EC%84%9C/Desktop/comeback01/learn-html/project.amazon/project.html" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="https://github.com/ankit21ka/amazon-clone" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </article>
+
+      <!-- third -->
+      <article class="project-card animate" tabindex="0">
+        <h3>Simple Resturant menu</h3>
+        <p>A clean and responsive restaurant menu designed using HTML and CSS. It displays food items with names and prices in a structured and visually appealing layout.
+
+</p>
+        <div class="project-links">
+          <a href="file:///C:/Users/ankit/OneDrive/%EB%AC%B8%EC%84%9C/Desktop/comeback01/lecture26/lecture26/index.html" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="https://github.com/coderbhaiya/weather-insight" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+
+  <section id="about">
+    <h2 class="animate">About Me</h2>
+    <p class="animate">
+      Hey! I'm Ankit Kumar — a tech enthusiast and passionate coder who lives by the motto "Code with heart, design with soul." From turning complex problems into elegant solutions to exploring the latest in web tech, I love crafting smooth user experiences and writing clean, efficient code. Let’s make something extraordinary together!
+    </p>
+    
+</section>
+  
+  <section id="resume" style="text-align:center;">
+    <button onclick="location.href='Ankit Resume final (1)'" class="resume-btn" aria-label="Download Resume">Download My Resume 📄</button>
+  </section>
+  
+
+  <section id="contact">
+    <h2 class="animate">Contact Me</h2>
+    <p class="contact-info animate">Let’s chat! Reach out through social media or send me a message below.</p>
+
+    <div class="social-links animate" role="list">
+      <a href="https://www.linkedin.com/in/ankit-kumar-0643a6274/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" role="listitem">🔗 LinkedIn</a>
+
+      <a href="hhttps://github.com/ankit21ka" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" role="listitem">🐙 GitHub</a>
+
+      <a href="mailto:ankit21ka@gmail.com" aria-label="Send Email" role="listitem">✉️ Email</a>
+    </div>
+    
+    <form id="contact-form" class="animate" novalidate>
+      <input type="email" id="email" placeholder="Your Email *" required />
+      <textarea id="message" placeholder="Your Message *" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="form-message" role="alert" style="color: var(--secondary-color); display:none; margin-top:1rem;"></p>
+    </form>
+  </section>
+</main>
+<footer>
+  &copy; Ankit Kumar. Crafted with ❤️ and ⚡.
+</footer>
+<script src="portfolio.js"></script>
+</body>
+</html>
